@@ -1,0 +1,101 @@
+.applicationAdminFile__containerProps {
+    width: 100%;
+    height: 100vh;
+    background-color: #e04556;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.applicationAdminFile__checkboxStyle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.applicationAdminFile__containerProps > h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.applicationAdminFile__card {
+    width: 800px;
+    height: 500px;
+    border-radius: 15px !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px;
+    background-color:  #f2f2f2;
+    border: 1px solid #d1cccc;
+    -webkit-box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.13);
+    box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.13);
+}
+
+.applicationAdminFile__row--grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 10px;
+    grid-template-rows: auto;
+}
+
+.applicationAdminFile__row--secondGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    grid-template-rows: auto;
+}
+
+.applicationAdminFile__grid--sample {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.applicationAdminFile__input {
+    border: 1px solid #d1cccc;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.applicationAdminFile__button {
+    background-color: #e04556;
+    width: 300px;
+    color: #FFF;
+    border: 1px solid #e04556;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.applicationAdminFile__button:hover {
+    opacity: 0.6;
+}
+
+.applicationAdminFile__buttonContainer {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplplicationAdminFile__footer {
+    font-size: 14px;
+    color: #FFF;
+    padding-top: 20px;
+}
